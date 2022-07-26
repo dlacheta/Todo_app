@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return all active todos 1`] = `
+Array [
+  Object {
+    "completed": false,
+    "todo": "laundry",
+  },
+  Object {
+    "completed": false,
+    "todo": "buy eggs",
+  },
+]
+`;
+
+exports[`should return all completed todos 1`] = `
+Array [
+  Object {
+    "completed": true,
+    "todo": "buy milk",
+  },
+]
+`;
+
+exports[`should return all todos 1`] = `
+Array [
+  Object {
+    "completed": false,
+    "todo": "laundry",
+  },
+  Object {
+    "completed": true,
+    "todo": "buy milk",
+  },
+  Object {
+    "completed": false,
+    "todo": "buy eggs",
+  },
+]
+`;

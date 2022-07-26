@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component as completed 1`] = `
+<div>
+  <li
+    class="ToDostyles__Container-sc-t6hsbx-0 jZMRLC"
+  >
+    <div
+      class="ToDostyles__CompletedContainer-sc-t6hsbx-1 ijmjqx"
+      data-testid="completed-container"
+    >
+      <svg
+        fill="none"
+        height="24"
+        stroke="black"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          stroke="none"
+        />
+        <polyline
+          points="9 11 12 14 20 6"
+        />
+        <path
+          d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"
+        />
+      </svg>
+      <div
+        class="ToDostyles__TodoContainer-sc-t6hsbx-2 dWOoKt"
+      >
+        Laundry
+      </div>
+    </div>
+    <div
+      class="ToDostyles__DeleteButton-sc-t6hsbx-3 hSvLfS"
+      data-testid="delete-button"
+    >
+      <svg
+        fill="none"
+        height="24"
+        stroke="black"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <rect
+          height="18"
+          rx="2"
+          ry="2"
+          width="18"
+          x="3"
+          y="3"
+        />
+        <line
+          x1="9"
+          x2="15"
+          y1="9"
+          y2="15"
+        />
+        <line
+          x1="15"
+          x2="9"
+          y1="9"
+          y2="15"
+        />
+      </svg>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`should render component as not completed 1`] = `
+<div>
+  <li
+    class="ToDostyles__Container-sc-t6hsbx-0 jZMRLC"
+  >
+    <div
+      class="ToDostyles__CompletedContainer-sc-t6hsbx-1 fLChIh"
+      data-testid="completed-container"
+    >
+      <svg
+        fill="none"
+        height="24"
+        stroke="black"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          stroke="none"
+        />
+         
+        <rect
+          height="16"
+          rx="2"
+          width="16"
+          x="4"
+          y="4"
+        />
+      </svg>
+      <div
+        class="ToDostyles__TodoContainer-sc-t6hsbx-2 dWOoKt"
+      >
+        Laundry
+      </div>
+    </div>
+    <div
+      class="ToDostyles__DeleteButton-sc-t6hsbx-3 hSvLfS"
+      data-testid="delete-button"
+    >
+      <svg
+        fill="none"
+        height="24"
+        stroke="black"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <rect
+          height="18"
+          rx="2"
+          ry="2"
+          width="18"
+          x="3"
+          y="3"
+        />
+        <line
+          x1="9"
+          x2="15"
+          y1="9"
+          y2="15"
+        />
+        <line
+          x1="15"
+          x2="9"
+          y1="9"
+          y2="15"
+        />
+      </svg>
+    </div>
+  </li>
+</div>
+`;

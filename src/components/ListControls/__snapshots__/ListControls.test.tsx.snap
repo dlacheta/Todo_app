@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div>
+  <div
+    class="ListControlsstyles__TodosListInfo-sc-8el6kk-0 iSAPco"
+  >
+    <div
+      class="ListControlsstyles__TodosListItemsLeft-sc-8el6kk-1 erjySO"
+    >
+      0
+       left
+    </div>
+    <div
+      class="ListControlsstyles__TodosListControls-sc-8el6kk-2 kPhJAB"
+    >
+      <div
+        class="ListControlsstyles__TodosListControl-sc-8el6kk-3 giciPs"
+        data-testid="all-control"
+      >
+        All
+      </div>
+      <div
+        class="ListControlsstyles__TodosListControl-sc-8el6kk-3 eEyFCb"
+        data-testid="active-control"
+      >
+        Active
+      </div>
+      <div
+        class="ListControlsstyles__TodosListControl-sc-8el6kk-3 eEyFCb"
+        data-testid="completed-control"
+      >
+        Completed
+      </div>
+    </div>
+    <div
+      class="ListControlsstyles__TodosListControl-sc-8el6kk-3 eEyFCb"
+      data-testid="clear-completed-control"
+    >
+      Clear completed
+    </div>
+  </div>
+</div>
+`;
